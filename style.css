@@ -12,7 +12,7 @@ body {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0px,20px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -71,7 +71,7 @@ iframe {
   margin-left: 20%;
 }
 
-h1{
+h1 {
   text-align: center;
   color: #ff8e3f;
   font-size: 40px;
@@ -82,10 +82,10 @@ h3 {
 }
 
 section {
-  margin: 100px 0px;
+  margin: 100px,0px;
 }
 
-.order-card-cantiner{
+.order-card-cantiner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -95,7 +95,7 @@ section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 5px 0px;
+  margin: 5px,0px;
   border-radius: 10px;
 }
 
@@ -141,7 +141,6 @@ input[type=email] {
   font-size: 20px;
   background-color: #fffe;
   display: flex;
-
 }
 
 input[type=number] {
@@ -151,7 +150,7 @@ input[type=number] {
   padding: 7px;
   width: 80%;
   font-size: 20px;
-  background-color: #ffffffee;
+  background-color: #fffe;
   display: flex;
 }
 
@@ -202,4 +201,3 @@ span {
   text-shadow: #222;
   border: 5px solid #4444;
 }
-
