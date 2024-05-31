@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tolo Fast Food</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tolo Fast Food</title>
 </head>
 <body>
-    <nav id="nav-bar">
-      <div class="logo">
-        <img src="images/logo.jpg" alt="logo" class="logo-image"/>
-      </div>
-      <div class="links">
-        <a href="#HOME">HOME</a>
-        <a href="#ORDERS">ORDERS</a>
-        <a href="#CONTACT">CONTACT</a>
-        <a href="#FREE_DELIVERY">FREE DELIVERY</a>
-      </div>
-    </nav>
-      <header id="header">
-        <h1>TOLO FAST FOOD</h1>
-        <h3>The Best Foods Avaliable</h3>
-      </header>
-      <div class="cantiner">
-        <section id="howdoit">
-        <div id="HOME">
-          <img  id="img" src="./images/back3.jpg" alt="home"/>
-          <img  id="img" src="./images/back.jpg" alt="home"/>
-          <iframe  id="vedio" width="650" height="315" frameborder="0" src="https://www.youtube.com/embed/AvoRDIvd2Ao?si=fdE0eMr4i_PcnJHt">
-          </iframe>
-        </section>
-        <hr>
-        <section class="instock">
-          <h1>ORDERS</h1>
-          <div class="order-card-cantiner">
-            <div class="order_card">
-              <div class="title">Pizza</div>
-              <img src="./images/pizaa.jpg" alt="pizza" class="food_image"/>
-              <button class="food-select">select</button>
-            </div>
-            <div class="order_card">
-              <div class="title">Ashak</div>
-              <img src="./images/ashak.jpg" alt="ashak" class="food_image"/>
-              <button class="food-select">select</button>
-            </div>
-            <div class="order_card">
-              <div class="title">kabab</div>
-              <img src="./images/kabab.jpg" alt="kabab" class="food_image"/>
-              <button class="food-select">select</button>
-            </div>
-            <div class="order_card">
-              <div class="title">Beef Burger</div>
-              <img src="./images/download.jpg" alt="qabili" class="food_image"/>
-              <button class="food-select">select</button>
-            </div>
-          </div>
-        </section>
-        <hr>
-        <section id="contact">
-            <h1>CONTACT</h1>
-            <form action="https://www.freecodecamp.com/email-submit">
-            <div class="contact-number">
-                <label for="email">Email</label><br>
-                <input id="email" type="email" name="email" placeholder="enter your email"></input>
-                <label>Phone</label><br>
-                <input id="phone" type="number"></input>
-                <label for="phone">Whatsapp</label><br>
-                <input id="phone" type="number"></input>
-                <input id="submit" type="submit"></input>
-            </div>
-          </form>
-        </section>
-        <hr>
-          <div class="delivery">
-            <h1>Free Delivery</h1>
-            <p id="dilvary">We offer free home delivery services.</p>
-            <img src="./images/download (1).jpg" alt="delivery" class="delivary"/>
-            <br>
-            <span>Adderss: Kabul street 2th Qala-e-fatullah</span>
-          </div>
-      </div>
+  <header id="header">
+  <nav id="nav-bar">
+    <div class="logo">
+      <img src="images/logo.jpg" alt="logo" class="logo-image" id="header-img"/>
     </div>
+    <div class="links">
+      <a class="nav-link" href="#HOME">HOME</a>
+      <a class="nav-link" href="#ORDERS">ORDERS</a>
+      <a class="nav-link" href="#CONTACT">CONTACT</a>
+      <a class="nav-link" href="#FREE_DELIVERY">FREE DELIVERY</a>
+    </div>
+  </nav>
+  </header>
+  <div id="HOME">
+    <h1>TOLO FAST FOOD</h1>
+    <h3>The Best Foods Avaliable</h3>
+  <div class="cantiner">
+    <section id="howdoit">
+      <img  id="img" src="./images/back3.jpg" alt="home"/>
+      <img  id="img" src="./images/back.jpg" alt="home"/>
+      <iframe  id="video" width="650" height="315" frameborder="0" src="https://www.youtube.com/embed/AvoRDIvd2Ao?si=fdE0eMr4i_PcnJHt">
+      </iframe>
+    </section>
+  </div>
+  <hr>
+  <section class="instock" id="ORDERS">
+    <h1>ORDERS</h1>
+    <div class="order-card-cantiner">
+    <div class="order_card">
+    <div class="title">Pizza</div>
+      <img src="./images/pizaa.jpg" alt="pizza" class="food_image"/>
+      <button class="food-select">select</button>
+    </div>
+    <div class="order_card">
+    <div class="title">Ashak</div>
+      <img src="./images/ashak.jpg" alt="ashak" class="food_image"/>
+      <button class="food-select">select</button>
+    </div>
+    <div class="order_card">
+    <div class="title">kabab</div>
+      <img src="./images/kabab.jpg" alt="kabab" class="food_image"/>
+      <button class="food-select">select</button>
+      </div>
+      <div class="order_card">
+      <div class="title">Beef Burger</div>
+      <img src="./images/download.jpg" alt="qabili" class="food_image"/>
+      <button class="food-select">select</button>
+    </div>
+    </div>
+  </section>
+  <hr>
+  <section id="CONTACT">
+    <h1>CONTACT</h1>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <div class="contact-number">
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email" placeholder="enter your email"></input>
+        <label>Phone</label><br>
+        <input id="phone" type="number"></input>
+        <label for="phone">Whatsapp</label><br>
+        <input id="phone" type="number"></input>
+        <input id="submit" type="submit"></input>
+      </div>
+    </form>
+  </section>
+  <hr>
+  <div class="delivery" id="FREE_DELIVERY">
+    <h1>Free Delivery</h1>
+    <p id="dilvary">We offer free home delivery services.</p>
+    <img src="./images/download (1).jpg" alt="delivery" class="delivary"/>
+    <br>
+    <span>Adderss: Kabul street 2th Qala-e-fatullah</span>
+  </div>
 </body>
 </html>
