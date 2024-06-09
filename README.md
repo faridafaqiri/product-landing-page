@@ -2,7 +2,7 @@
 
 ## Project Description 📝
 
-> This project is a Product-Landing-Page. about an online offering food,
+This project is a Product-Landing-Page. about an online offering food,
 by design this page a learned more about html and css.
 I learned about how to create a responsive web page and how to write a code inside the page that show like a code.
 
